@@ -90,6 +90,24 @@ body {
   background-color: #ffffff;
 }
 
+.gobacktohome{
+  text-decoration: none;
+  padding: 5px;
+  background-color: #010005;
+  color: #f3efec;
+  border-radius: 5px;
+  margin-left: 5px;
+  /* transition-property: background;
+  transition-duration: 2s; */
+}
+
+.gobacktohome:hover{
+  background: #fff;
+  color: #010005;
+}
+
+
+
 .section_by_the_right_side .workExperience,
 .Education {
   padding: 20px 30px;
@@ -229,7 +247,7 @@ footer {
 }
 
 footer .footer_brief,
-.footer_copyright {
+.footer_copyright{
   text-align: center;
 }
 
@@ -250,6 +268,7 @@ footer .SVG_wrapper a svg:hover {
 footer .SVG_wrapper a {
   padding: 10px;
 }
+
 
 /* MEDIA QUERY */
 @media (max-width: 768px) {

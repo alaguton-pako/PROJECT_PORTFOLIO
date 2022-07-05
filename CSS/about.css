@@ -42,6 +42,23 @@ nav a svg{
     margin: auto;
 }
 
+.goback_button{
+    text-decoration: none;
+    padding: 5px;
+    background: #551a8b;
+    color: #010005;
+    border-radius: 10px;
+    transition-property: background;
+    transition-duration: 2s;
+}
+
+.goback_button:hover{
+    background: #fff;
+    color: #010005;
+}
+
+
+
 
 .forThecontent .aboutMeparagraphHeading{
     color: #ffffff;
