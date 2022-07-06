@@ -91,6 +91,26 @@ nav a svg{
     fill: #551a8b;
 }
 
+.gridSection{
+    width: 1200px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 40px;
+}
+
+.gridSection .box{
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    break-inside: avoid ;
+}
+
+.gridSection .box img{
+    max-width: 100%;
+}
+
 footer {
     /* height: 70px; */
     background: #010005;
@@ -119,8 +139,30 @@ footer {
     .myPoint{
         display: block;
     }
-    
+
     footer{
         height: 40px;
+    }
+  }
+
+  @media (max-width: 1200px){
+    .gridSection{
+        columns: 3;
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+        padding: 20px 20px 20px 0;
+
+    }
+  }
+
+  @media (max-width: 768px){
+    .gridSection{
+        columns: 2;
+    }
+  }
+
+  @media (max-width: 480px){
+    .gridSection{
+        columns: 1;
     }
   }

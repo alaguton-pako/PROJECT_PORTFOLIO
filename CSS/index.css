@@ -21,6 +21,17 @@ header {
   align-items: center;
 }
 
+.header-content-wrapper .menu_button i{
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+#click{
+  display: none;
+}
+
 .logo {
   color: red;
   font-size: 30px;
@@ -214,6 +225,7 @@ footer p {
 }
 
 
+
 @media (max-width: 768px) {
   header {
     background-image: url("https://images.unsplash.com/photo-1608306448197-e83633f1261c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
@@ -222,6 +234,10 @@ footer p {
     background-repeat: no-repeat;
     height: 100vh;
     /* margin-top: -1px; */
+  }
+
+  .header-content-wrapper .menu_button i{
+    display: block;
   }
 
   .navlink {
@@ -303,4 +319,5 @@ footer p {
     display: block;
     text-align: center;
   }
+  
 }
